@@ -7,12 +7,17 @@ public class Main {
         if(num1 > num2) {
             System.out.println(num1 + " is bigger than " + num2);
         }
-        else if (num1 < num2) {
+        else if(num1 < num2) {
             System.out.println(num1 + " is lesser than " + num2);
         }
         else {
             System.out.println("Operands are equal");
         }
-
+        if((num1 % 2) == 0) {
+            System.out.println("The number is even");
+        }
+        else {
+            System.out.println("The number is odd");
+        }
     }
 }
