@@ -1,15 +1,14 @@
-package com.ua.robotdreams;
+package com.ua.robotdreams.lesson10;
 
-public class Student {
+public class Teacher {
     private String name;
     private String surname;
     private String middleName;
-
-    public void study(){
-        System.out.println("Time to study!!!");
+    public void teach(){
+        System.out.println("Time to teach!!!");
     }
 
-    public Student(String name, String surname, String middleName) {
+    public Teacher(String name, String surname, String middleName) {
         this.name = name;
         this.surname = surname;
         this.middleName = middleName;
