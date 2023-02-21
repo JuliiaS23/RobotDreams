@@ -1,6 +1,5 @@
-package com.ua.robotdreams;
+package com.ua.robotdreams.lesson10;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
