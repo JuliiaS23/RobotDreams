@@ -1,6 +1,6 @@
 package com.ua.robotdreams.lesson14;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Human driver = new Driver();
         Human pilot = new Pilot();
